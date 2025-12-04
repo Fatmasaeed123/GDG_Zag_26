@@ -1,0 +1,52 @@
+body{
+    font-family: cabin ;
+}
+.shadow{
+    padding: 10px;
+    margin: 20px;
+    font-size: 50px;
+    text-shadow: 1px .7px  #f34236 ,
+                1.7px 1.7px #2196f2 ,
+                3px 3px #9c27af ;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform:capitalize ;
+}
+.first{
+    background-color: #EEE ;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+.second{
+    background-color: #EEE ;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap ;
+    text-overflow: hidden ;
+}
+.third{
+    background-color: #EEE ;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    white-space: nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+}
+.link a{
+    background-color:#009687 ;
+    color: white;
+    font-size: 70px ;
+    margin: 20px 20px 200px 200px;
+    padding: 30px 30px;
+    text-transform: capitalize;
+    text-decoration: none ;
+    display: inline-block ;
+    border-bottom: 20px #00514a solid ;
+}
