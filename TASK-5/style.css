@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-style: 
+Irish Grover;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+/*Task2*/
+.Rectangles {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .rectangle {
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px; 
+      box-shadow: 0 4px 15px rgba(195, 191, 191, 0.2);
+
+  }
+  
+  .red {
+    background-color:red;
+  }
+  
+ .rectangle.green {
+    background-color:rgb(15, 146, 15);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.35);
+ }
+
+  
+  .blue {
+    background-color:blue;
+  }
+  
+  .yellow {
+    background-color:yellow;
+    color: black; 
+  }
+  /*Task3*/
+  .overlapping-rectangles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .square-red {
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .square-green {
+    background-color: rgb(4, 93, 27);
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  
+  .square-purple {
+    background-color: purple;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+  }
+  /*Task4*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+h2 {
+    color: #444;
+    margin-top: 30px;
+}
