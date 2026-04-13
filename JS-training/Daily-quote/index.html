@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <title>Daily-quote</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="qoute-box">
+        <h1>Qoute of the day</h1>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+            <button onclick="getquote(api_url)">New Quote</button>
+            <button onclick="tweetshare()"><img src="./tweet.png">Tweet</button>
+            <button onclick="copyQuote()">Copy Quote</button>
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>

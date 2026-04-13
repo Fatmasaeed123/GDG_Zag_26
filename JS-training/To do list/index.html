@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Noto+Kufi+Arabic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <!--table-->
+    <div class="container">
+        <div class="todo">
+            <h1>To-do-list</h1>
+            <button id="add-btn" class="circular">
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </button>
+        </div>
+        <!--Tasks-->
+        <div class="tasks-container" id="Task">
+        <div  class="task">
+    <div class="task-info">
+        <h2>قراءة</h2>
+        <p>
+            <span class="material-symbols-outlined">calendar_month</span>
+            10-10-2025
+        </p>
+    </div>
+    <div class="active-btn">
+        <button class="Delete"><span class="material-symbols-outlined">delete</span></button>
+        <button class="complete"><span class="material-symbols-outlined">check</span></button>
+        <button class="Edit"><span class="material-symbols-outlined">edit</span></button>
+    </div>
+</div>
+
+</div>
+        <!--//Tasks//-->
+    </div>
+    <!--//table//-->
+    <script src="./main.js"></script>
+</body>
+</html>
